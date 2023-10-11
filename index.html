@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Menu services </title>
+    <link 
+    rel="stylesheet" 
+    href="./assets/main.css">
+    <script src="https://kit.fontawesome.com/e4f00e70b7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo"><i class="fa-brands fa-usps"></i></div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">about</a></li>
+            <li>
+                <div class="dropdown" id="nice">
+                    <label for="dropdown-btn" class="solid">Services</label>
+                    <input type="checkbox" name="dropdown-btn" id="dropdown-btn"/>
+                    <ol>
+                        <li><a href="">Carwash</a></li>
+                        <li><a href="">Laundry</a></li>
+                        <li><a href="">Furniture</a></li>
+                        <li><a href="">Plumbing</a></li>
+                    </ol>
+                </div>
+            </li>
+        </ul>
+
+        <div class="modal-container">
+            <label for="modal-btn"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" name="modal-btn" id="modal-btn"/>
+            <div class="modal">
+                <div class="wrapper">
+                    <a href="http://whatsApp.com">WhatsApp Web</a>
+                    <a href="http://twitter.com">Twitter Web</a>
+                    <a href="http://insta.com">WhatsApp Web</a>
+                    <div>
+                        <label for="modal-btn" class="exit"><i class="fa-solid fa-xmark"></i></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
